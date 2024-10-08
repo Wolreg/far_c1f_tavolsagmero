@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'ros2_py_template'
+package_name = 'far_c1f_tavolsagmero'
 
 setup(
     name=package_name,
@@ -17,13 +17,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='todo',
-    maintainer_email='todo@todo.com',
+    maintainer_email='farkas8891@gmail.com',
     description='TODO: Package description',
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = ros2_py_template.control_vehicle:main',
+            # 'control_vehicle = far_c1f_tavolsagmero.control_vehicle:main',
         ],
     },
 )
