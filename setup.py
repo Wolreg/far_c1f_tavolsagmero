@@ -16,9 +16,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='todo',
+    maintainer='Wolreg',
     maintainer_email='farkas8891@gmail.com',
-    description='TODO: Package description',
+    description='Tavolsagmero: Package description',
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
