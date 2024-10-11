@@ -6,7 +6,8 @@ def generate_launch_description():
         Node(
             package='far_c1f_tavolsagmero',
             executable='distance_generate',
-            output='screen'
+            output='log',
+            parameters=[{'log_level': 'WARN'}]
         ),
         Node(
             package='far_c1f_tavolsagmero',
