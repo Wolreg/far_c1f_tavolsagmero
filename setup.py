@@ -23,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "distance_generate = far_c1f_tavolsagmero.distance_publisher:main"
+            "distance_generate = far_c1f_tavolsagmero.distance_publisher:main",
+            "distance_monitoring = far_c1f_tavolsagmero.distance_monitor:main"
             
             # 'control_vehicle = far_c1f_tavolsagmero.control_vehicle:main',
         ],
